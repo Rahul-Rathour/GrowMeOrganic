@@ -102,7 +102,7 @@ const PrimeReactTable: React.FC = () => {
 
     return (
         <div className="p-m-4">
-            <h2>Artworks Table</h2>
+            
             {loading ? (
                 <ProgressSpinner />
             ) : (
